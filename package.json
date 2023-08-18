@@ -1,0 +1,68 @@
+{
+  "name": "josenanodev-generic-utils",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jose Carlos Cardenas Martinez"
+  },
+  "description": "Libreria de funciones genericas",
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josenanodev/josenanodev-generic-utils.git"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.0",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/jest": "^29.5.3",
+    "@types/lodash": "^4.14.197",
+    "@types/node": "^20.5.0",
+    "rollup": "^3.28.0",
+    "rollup-plugin-dts": "^6.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1"
+  },
+  "scripts": {
+    "rollup-build-lib": "rollup -c",
+    "test": "jest --coverage",
+    "tsc": "tsc"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "verbose": true
+  },
+  "bugs": {
+    "url": "https://github.com/Josenanodev/josenanodev-generic-utils/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/Josenanodev/josenanodev-generic-utils#readme",
+  "_id": "josenanodev-generic-utils@0.0.1",
+  "dependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-typescript": "^7.22.5"
+  }
+}
